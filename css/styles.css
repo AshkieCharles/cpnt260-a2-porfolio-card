@@ -1,0 +1,32 @@
+body {
+  line-height: 1.5;
+  font-size: 22px;
+}
+
+
+article {
+  margin: auto;
+  text-align: center;
+  width: 50ch;
+  display: block;
+  background-color: hsl(101, 84%, 40%);
+  border-radius: 10%;
+  padding: 2rem;
+  margin-top: 10vw;
+}
+
+button {
+  width: max-content;
+  text-decoration: none;
+  border-radius: 10%;
+  display: block;
+  margin: auto;
+}
+
+
+
+img{
+  max-width: auto;
+  display: block;
+  margin: auto;
+}
