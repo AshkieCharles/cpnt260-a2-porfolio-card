@@ -1,32 +1,41 @@
-body {
-  line-height: 1.5;
-  font-size: 22px;
+body { line-height: 1.5; 
+  font-size: 22px; 
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c); 
+} 
+
+article { 
+  margin: auto; 
+  text-align: center; 
+  width: 50ch; 
+  display: block; 
+  background-color: hsl(101, 84%, 40%); 
+  border-radius: 10%; 
+  padding: 2rem; 
+  margin-top: 10vw; 
+} 
+
+button, button:visited { 
+  font-size: 22px; 
+  max-width: 50ch; 
+  text-decoration: none; 
+  border-radius: 20%; 
+  display: block; 
+  margin: auto; 
+  border: none; 
+  background-color: aquamarine; 
+} 
+
+button:hover { 
+  background-color: rgb(183, 132, 132); 
+
+
+} button:active { 
+  background-color: black; 
+
 }
 
-
-article {
-  margin: auto;
-  text-align: center;
-  width: 50ch;
-  display: block;
-  background-color: hsl(101, 84%, 40%);
-  border-radius: 10%;
-  padding: 2rem;
-  margin-top: 10vw;
-}
-
-button {
-  width: max-content;
-  text-decoration: none;
-  border-radius: 10%;
-  display: block;
-  margin: auto;
-}
-
-
-
-img{
-  max-width: auto;
-  display: block;
-  margin: auto;
+img{ 
+  max-width: auto; 
+  display: block; 
+  margin: auto; 
 }
