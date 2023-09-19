@@ -3,6 +3,12 @@ body {
   font-size: 22px;
 }
 
+a {
+  text-decoration: none;
+  display: flex;
+  margin: none;
+}
+
 
 article {
   margin: auto;
@@ -13,7 +19,17 @@ article {
   border-radius: 10%;
   padding: 2rem;
   margin-top: 10vw;
+  overflow: hidden;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.2s;
 }
+/*gives us the hover effect*/
+article:hover{
+  transform: translateY(-0.5%);
+  box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+}
+
 
 button, button:visited{
   width: max-content;
@@ -27,11 +43,10 @@ button:hover{
   background-color: rgb(209, 191, 191);
 }
 
-
-
-
 img{
   max-width: auto;
   display: block;
   margin: auto;
+  object-fit: cover;
+
 }
