@@ -13,7 +13,7 @@ body { line-height: 1.5;
 
 article {
   margin: auto;
-  text-align: center;
+  text-align: justify;
   width: 50ch;
   display: block;
   background-color:#133E86ff;
@@ -88,7 +88,7 @@ h1 {
   color: #f69d3c;
 }
 
-h2{
+h3{
   height: 34px;
   width: 100%;
   margin: 0 auto;
