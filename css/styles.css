@@ -1,11 +1,14 @@
+
+
+
 body { line-height: 1.5; 
   font-size: 22px; 
-  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  background: linear-gradient(#07F8E7ff,#133E86ff);
   background-repeat: no-repeat; 
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
-} 
+}
 
 
 article {
@@ -13,7 +16,7 @@ article {
   text-align: center;
   width: 50ch;
   display: block;
-  background-color: hsl(101, 84%, 40%);
+  background-color:#133E86ff;
   border-radius: 10%;
   padding: 0;
   margin-top: 10vw;
@@ -38,6 +41,7 @@ button, button:visited{
   margin:auto;
   display: block;
   margin-bottom: 5ch;
+  margin-top: 2ch;
 }
 
 button:hover{
@@ -49,6 +53,8 @@ img{
   width: 200%;
   height: 20rem;
   object-fit: cover;
+  clip-path: circle(35%);
+  margin-top: 1ch;
 }
 
 a, a:visited{
@@ -59,15 +65,39 @@ a, a:visited{
 
 }
 
-h3 {
+h2 {
   display: block;
   text-align: center;
 
+  padding-top: 1ch;
+  padding-bottom: 1ch;
   height: auto;
   width: 230px;
   margin: auto;
+  font-size: 20px;
+  color: #f69d3c;
+}
+
+h3{
+  height: 34px;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 27px;
 }
 
 div {
   margin-bottom:20vw;
+}
+
+.content {
+  max-width: 50ch;
+  background-color: hsla(251, 49%, 48%, 1);
+  color: white;
+
+  padding: 2rem;
+  padding-bottom: 0;
+  border-radius: 1rem;
+  margin: 2ch;
+  /*So that the box doesn't touch the top*/
+  margin-top: 2rem;
 }
