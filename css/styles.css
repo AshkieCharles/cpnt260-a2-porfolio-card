@@ -7,6 +7,7 @@ body { line-height: 1.5;
   background-position: center center;
 } 
 
+
 article {
   margin: auto;
   text-align: center;
@@ -14,7 +15,7 @@ article {
   display: block;
   background-color: hsl(101, 84%, 40%);
   border-radius: 10%;
-  padding: 2rem;
+  padding: 0;
   margin-top: 10vw;
   overflow: hidden;
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
@@ -41,13 +42,23 @@ button:hover{
 }
 
 img{
-  max-width: auto;
   display: block;
-  margin: auto;
+  width: 200%;
+  height: 20rem;
   object-fit: cover;
 }
 
-a {
+a, a:visited{
   display: inline-flex;
   flex-wrap: wrap;
+  text-decoration: none;
+}
+
+h3 {
+  display: block;
+  text-align: center;
+
+  height: auto;
+  width: 230px;
+  margin: auto;
 }
