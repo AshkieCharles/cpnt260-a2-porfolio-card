@@ -21,6 +21,7 @@ article {
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: 0.2s;
+  
 }
 /*gives us the hover effect*/
 article:hover{
@@ -65,4 +66,8 @@ h3 {
   height: auto;
   width: 230px;
   margin: auto;
+}
+
+div {
+  margin-bottom:20vw;
 }
