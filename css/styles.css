@@ -32,9 +32,11 @@ article:hover{
 button, button:visited{
   width: max-content;
   text-decoration: none;
+  padding: 0.5rem 1rem;
   border-radius: 10%;
+  margin:auto;
   display: block;
-  margin: auto;
+  margin-bottom: 5ch;
 }
 
 button:hover{
@@ -52,6 +54,8 @@ a, a:visited{
   display: inline-flex;
   flex-wrap: wrap;
   text-decoration: none;
+  color:#ebf8e1
+
 }
 
 h3 {
