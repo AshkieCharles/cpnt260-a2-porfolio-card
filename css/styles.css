@@ -1,14 +1,7 @@
-body {
-  line-height: 1.5;
-  font-size: 22px;
-}
-
-a {
-  text-decoration: none;
-  display: flex;
-  margin: none;
-}
-
+body { line-height: 1.5; 
+  font-size: 22px; 
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c); 
+} 
 
 article {
   margin: auto;
