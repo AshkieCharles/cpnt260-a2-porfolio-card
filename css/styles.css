@@ -3,39 +3,42 @@ body { line-height: 1.5;
   background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c); 
 } 
 
-article { 
-  margin: auto; 
-  text-align: center; 
-  width: 50ch; 
-  display: block; 
-  background-color: hsl(101, 84%, 40%); 
-  border-radius: 10%; 
-  padding: 2rem; 
-  margin-top: 10vw; 
-} 
-
-button, button:visited { 
-  font-size: 22px; 
-  max-width: 50ch; 
-  text-decoration: none; 
-  border-radius: 20%; 
-  display: block; 
-  margin: auto; 
-  border: none; 
-  background-color: aquamarine; 
-} 
-
-button:hover { 
-  background-color: rgb(183, 132, 132); 
-
-
-} button:active { 
-  background-color: black; 
-
+article {
+  margin: auto;
+  text-align: center;
+  width: 50ch;
+  display: block;
+  background-color: hsl(101, 84%, 40%);
+  border-radius: 10%;
+  padding: 2rem;
+  margin-top: 10vw;
+  overflow: hidden;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.2s;
+}
+/*gives us the hover effect*/
+article:hover{
+  transform: translateY(-0.5%);
+  box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
 }
 
-img{ 
-  max-width: auto; 
-  display: block; 
-  margin: auto; 
+
+button, button:visited{
+  width: max-content;
+  text-decoration: none;
+  border-radius: 10%;
+  display: block;
+  margin: auto;
+}
+
+button:hover{
+  background-color: rgb(209, 191, 191);
+}
+
+img{
+  max-width: auto;
+  display: block;
+  margin: auto;
+  object-fit: cover;
 }
