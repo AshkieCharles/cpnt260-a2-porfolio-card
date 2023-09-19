@@ -42,10 +42,19 @@ button, button:visited{
   display: block;
   margin-bottom: 5ch;
   margin-top: 2ch;
+  background-color: blue;
+  color: aliceblue;
+  border: none;
 }
 
 button:hover{
-  background-color: rgb(209, 191, 191);
+  background-color: rgb(77, 137, 228);
+  color: red;
+}
+
+button:active {
+  background-color: black;
+  color: red;
 }
 
 img{
@@ -55,6 +64,7 @@ img{
   object-fit: cover;
   clip-path: circle(35%);
   margin-top: 1ch;
+  margin-right: 20px;
 }
 
 a, a:visited{
@@ -65,7 +75,7 @@ a, a:visited{
 
 }
 
-h2 {
+h1 {
   display: block;
   text-align: center;
 
@@ -78,11 +88,13 @@ h2 {
   color: #f69d3c;
 }
 
-h3{
+h2{
   height: 34px;
   width: 100%;
   margin: 0 auto;
+  padding-left: 2rem;
   font-size: 27px;
+  text-align: left;
 }
 
 div {
