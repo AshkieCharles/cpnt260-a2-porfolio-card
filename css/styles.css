@@ -30,6 +30,7 @@ body {
   background-color:#133E86ff;
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.5);
   cursor: pointer;
+  /*gives the slight delay of the hover*/
   transition: 0.2s;
   
 }
@@ -68,7 +69,7 @@ button, button:visited{
 
 button:hover{
   background-color: rgb(255, 255, 255);
-  color: red;
+  color: rgb(0, 0, 0);
 
   
 }
