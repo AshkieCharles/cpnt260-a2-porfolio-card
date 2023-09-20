@@ -81,7 +81,8 @@ img{
   height: 20rem;
   margin-top: 1ch;
   
-  object-fit: cover;
+  /*object-fit is contained as to prevent distortions of the image*/
+  object-fit: contain;
   clip-path: circle(35%);
   
 
