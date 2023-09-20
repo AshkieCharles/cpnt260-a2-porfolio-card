@@ -103,13 +103,14 @@ a, a:visited{
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
   display: block;
 
   padding-top: 1ch;
   padding-bottom: 1ch;
   margin: auto;
+ 
 
   height: auto;
   width: 230px;
@@ -119,13 +120,14 @@ h1 {
 
 h3{
   font-display: auto;
-  font-size: 27px;
-  text-align: left;
+  font-size: 22px;
+  text-align: center;
 
   height: 34px;
   width: 100%;
 
-  margin: 0 auto;
+  margin: auto;
+  margin-right: 2rem;
   padding-left: 2rem;
 }
 
