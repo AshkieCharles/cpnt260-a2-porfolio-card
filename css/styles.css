@@ -12,7 +12,8 @@ body {
 }
 
 
-article {
+  
+.card {
   margin: auto;
   margin-top: 10vw;
   width: 50ch;
