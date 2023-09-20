@@ -1,24 +1,22 @@
 
-
-
 body { 
   line-height: 1.5; 
   font-size: 22px; 
-
+  
   background-repeat: no-repeat; 
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
-
+  
   background: linear-gradient(#07F8E7ff,#133E86ff);
 }
 
 
 article {
-  margin-top: 10vw;
   margin: auto;
+  margin-top: 10vw;
   width: 50ch;
-  padding: 0;
+  padding: 2rem;
   
   border-radius: 10%;
   border-style: solid;
@@ -34,6 +32,12 @@ article {
   transition: 0.2s;
   
 }
+
+div {
+  margin-bottom:20vw;
+  padding: auto;
+}
+
 /*gives us the hover effect*/
 article:hover{
   transform: translateY(-0.5%);
@@ -62,7 +66,7 @@ button, button:visited{
 }
 
 button:hover{
-  background-color: rgb(77, 137, 228);
+  background-color: rgb(255, 255, 255);
   color: red;
 
   
@@ -109,10 +113,11 @@ h1 {
   height: auto;
   width: 230px;
   
-  color: #f69d3c;
+  color: #07F8E7ff;
 }
 
 h3{
+  font-display: auto;
   font-size: 27px;
   text-align: left;
 
@@ -123,18 +128,14 @@ h3{
   padding-left: 2rem;
 }
 
-div {
-  margin-bottom:20vw;
-}
-
 .content {
   max-width: 50ch;
   border-radius: 1rem;
   
   padding: 2rem;
   padding-bottom: 0;
-  margin: 2ch;
-  margin-top: 2rem;
+  margin: 2rem;
+  
   
   background-color: hsla(251, 49%, 48%, 1);
   color: white;
