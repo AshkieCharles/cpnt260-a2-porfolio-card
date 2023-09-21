@@ -11,8 +11,35 @@ body {
   background: linear-gradient(#07F8E7ff,#133E86ff);
 }
 
-
+h3 {
+  font-size: 25px;
+  text-align: center;
+  display: block;
   
+  padding-top: 1ch;
+  padding-bottom: 1ch;
+  margin: auto;
+  
+  
+  height: auto;
+  width: 230px;
+  
+  color: #07F8E7ff;
+}
+
+h4{
+  font-display: auto;
+  font-size: 22px;
+  text-align: center;
+  
+  height: 34px;
+  width: 100%;
+  
+  margin: auto;
+  margin-right: 2rem;
+  padding-left: 2rem;
+}
+
 .card {
   margin: auto;
   margin-top: 10vw;
@@ -46,92 +73,6 @@ article:hover{
   box-shadow: 0 4rem 8rem rgba(0, 0, 0, 1);
 }
 
-
-button, button:visited{
-  text-decoration: none;
-
-  margin:auto;
-  margin-bottom: 5ch;
-  margin-top: 2ch;
-
-  width: max-content;
-  padding: 0.5rem 1rem;
-
-  border-radius: 10%;
-  border-color: #07F8E7ff;
-  border-style: solid;
-
-  display: block;
-
-  background-color: blue;
-  color: aliceblue;
-}
-
-button:hover{
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-
-  
-}
-
-button:active {
-  background-color: black;
-  color: red;
-  border-color: white;
-  border-style:double;
-}
-
-img{
-  display: block;
-  width: 100%;
-  height: 20rem;
-  margin-top: 1ch;
-  
-  /*object-fit is contained as to prevent distortions of the image*/
-  object-fit: contain;
-  clip-path: circle(35%);
-  
-
-
-}
-
-a, a:visited{
-  text-decoration: none;
-  flex-wrap: wrap;
-  display: inline-flex;
-  color:#ebf8e1
-
-}
-
-h3 {
-  font-size: 25px;
-  text-align: center;
-  display: block;
-
-  padding-top: 1ch;
-  padding-bottom: 1ch;
-  margin: auto;
- 
-
-  height: auto;
-  width: 230px;
-  
-  color: #07F8E7ff;
-}
-
-h4{
-  font-display: auto;
-  font-size: 22px;
-  text-align: center;
-
-  height: 34px;
-  width: 100%;
-
-  margin: auto;
-  margin-right: 2rem;
-  padding-left: 2rem;
-}
-
 .content {
   max-width: 50ch;
   border-radius: 1rem;
@@ -145,5 +86,54 @@ h4{
   color: white;
   border-style: solid;
   border-color: #07F8E7ff;
-
 }
+
+button, button:visited{
+  text-decoration: none;
+  
+  margin:auto;
+  margin-bottom: 5ch;
+  margin-top: 2ch;
+  
+  width: max-content;
+  padding: 0.5rem 1rem;
+  
+  border-radius: 10%;
+  border-color: #07F8E7ff;
+  border-style: solid;
+  
+  display: block;
+  
+  background-color: blue;
+  color: aliceblue;
+}
+
+button:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+button:active {
+  background-color: black;
+  color: red;
+  border-color: white;
+  border-style:double;
+}
+a, a:visited{
+  text-decoration: none;
+  flex-wrap: wrap;
+  display: inline-flex;
+  color:#ebf8e1
+}
+
+img{
+  display: block;
+  width: 100%;
+  height: 20rem;
+  margin-top: 1ch;
+  
+  /*object-fit is contained as to prevent distortions of the image*/
+  object-fit: contain;
+  clip-path: circle(35%);
+}
+
