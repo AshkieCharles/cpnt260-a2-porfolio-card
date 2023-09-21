@@ -77,8 +77,8 @@ button:hover{
 button:active {
   background-color: black;
   color: red;
-  border-style:double;
   border-color: white;
+  border-style:double;
 }
 
 img{
@@ -103,7 +103,7 @@ a, a:visited{
 
 }
 
-h1 {
+h3 {
   font-size: 25px;
   text-align: center;
   display: block;
@@ -119,7 +119,7 @@ h1 {
   color: #07F8E7ff;
 }
 
-h3{
+h4{
   font-display: auto;
   font-size: 22px;
   text-align: center;
