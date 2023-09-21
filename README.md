@@ -1,6 +1,6 @@
 # Course title: CPNT 260 Web Page Construction Fundamentals
-  Assignment name: Assignment 2 - Single Card
-  Author name: Ashkie Esperanza
+  - Assignment name: Assignment 2 - Single Card
+  - Author name: Ashkie Esperanza
 
 
 [GH Site](https://ashkiecharles.github.io/cpnt260-a2-porfolio-card/)
